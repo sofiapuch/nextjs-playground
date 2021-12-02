@@ -1,5 +1,7 @@
 import ColourTile from "../../components/UI/molecules/ColourTile";
 
+import styles from './palette.module.css';
+
 const colourPalettes = [
   {
     title: "Core Brand",
@@ -28,14 +30,16 @@ const Palette = (props) => {
   return (
     <section className="palette">
       <h2>{title}</h2>
-      {colours.map((colour) => {
-        return (
-          <ColourTile
-            key={colour.varName}
-            colour={colour}
-          />
-        )
-      })}
+      <div className={styles.colours}>
+        {colours.map((colour) => {
+          return (
+            <ColourTile
+              key={colour.varName}
+              colour={colour}
+            />
+          )
+        })}
+      </div>
     </section>
   )
 }
