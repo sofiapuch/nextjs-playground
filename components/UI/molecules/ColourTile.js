@@ -6,9 +6,11 @@ const ColourTile = (props) => {
   return (
     <div className={styles.tile}>
       <div className={styles.colour} style={{backgroundColor: hex}}></div>
-      <p className="text">{name}</p>
-      <p className="colour-tile__text">{hex}</p>
-      <p className="colour-tile__text colour-tile__text--secondary">{varName}</p>
+      <div className={styles.content}>
+        <p className="text">{name}</p>
+        <p className="colour-tile__text">{hex}</p>
+        <p className="colour-tile__text colour-tile__text--secondary">{varName}</p>
+      </div>
     </div>
   )
 }

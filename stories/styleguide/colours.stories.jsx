@@ -1,6 +1,6 @@
-import ColourTile from "../../components/UI/molecules/ColourTile";
+import { Container, Row, Col } from 'react-grid-system';
 
-import styles from './palette.module.css';
+import ColourTile from "../../components/UI/molecules/ColourTile";
 
 const colourPalettes = [
   {
@@ -28,26 +28,27 @@ const colourPalettes = [
 const Palette = (props) => {
   const {title, colours} = props.palette;
   return (
-    <section className="palette">
+    <Container>
       <h2>{title}</h2>
-      <div className={styles.colours}>
+      <Row>
         {colours.map((colour) => {
           return (
-            <ColourTile
-              key={colour.varName}
-              colour={colour}
-            />
+            <Col sm={6} md={4} key={colour.varName}>
+              <ColourTile colour={colour}/>
+            </Col>
           )
         })}
-      </div>
-    </section>
+      </Row>
+    </Container>
   )
 }
 
 const Component = () => {
   return (
     <>
-      <h1>Colour Palettes</h1>
+      <Container>
+        <h1>Colour Palettes</h1>
+      </Container>
       {colourPalettes.map((palette, index) => {
         return (
           <Palette

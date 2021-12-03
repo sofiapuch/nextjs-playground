@@ -1,7 +1,0 @@
-/* ToDo: Refactor or transform in layout or grid and move out from here */
-
-.colours {
-  display: flex;
-  align-items: center;
-  margin-top: 1rem;
-}
