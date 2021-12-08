@@ -1,5 +1,7 @@
 import { Container, Row, Col } from 'react-grid-system';
 
+import styles from './typography.module.scss';
+
 const typeStyles = [
   {
     name: "Heading 01",
@@ -12,8 +14,8 @@ const typeStyles = [
     text: "Lorem ipsum dolor sit amet",
   },
   {
-    name: "Caption",
-    modifier: "p--caption",
+    name: "Card Caption",
+    modifier: "p--card-caption",
     text: "I am a caption."
   },
   {
@@ -33,7 +35,7 @@ const TypeStyle = (props) => {
           <h2>{name}</h2>
         </Col>
         <Col md={6}>
-          <p className={modifier}>{text}</p>
+          <p className={styles[modifier]}>{text}</p>
         </Col>
       </Row>
     </Container>
