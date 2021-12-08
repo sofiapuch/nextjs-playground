@@ -1,5 +1,5 @@
-import "../styles/global.css";
-import "../styles/utils.module.css";
+import "../styles/global.scss";
+import "../styles/utils.module.scss";
 
 import * as NextImage from "next/image";
 

@@ -1,4 +1,4 @@
-import styles from './colourTile.module.css';
+import styles from './colourTile.module.scss';
 
 const ColourTile = (props) => {
   const { name, hex, varName } = props.colour;

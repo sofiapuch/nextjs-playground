@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 import Layout, { siteTitle } from '../components/layout';
 import CardToutList from '../components/UI/organisms/cardList/CardToutList';
-import utilStyles from '../styles/utils.module.css';
+import utilStyles from '../styles/utils.module.scss';
 
 // import { getSortedPostsData } from '../lib/posts';
 
