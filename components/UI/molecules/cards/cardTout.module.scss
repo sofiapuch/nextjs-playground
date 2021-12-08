@@ -28,6 +28,18 @@
     }
   }
 
+  &--dark {
+    background-color: #232323;
+
+    .card-tout__title {
+      color: #04FFC8;
+    }
+
+    .card-tout__caption {
+      color: #fff;
+    }
+  }
+
   &__caption {
     @extend %card-caption;
   }
