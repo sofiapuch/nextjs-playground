@@ -37,8 +37,8 @@ const cards = [
 
 const CardToutList = () => {
   return (
-    <Container>
-      <Row>
+    <Container fluid>
+      <Row nogutter>
         {cards.map((card, index) => {
           return (
             <Col sm={6} md={4} key={`${card.title}-${index}`}>
