@@ -1,5 +1,4 @@
 import "../styles/global.scss";
-import "../styles/utils.module.scss";
 
 import * as NextImage from "next/image";
 

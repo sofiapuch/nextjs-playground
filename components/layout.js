@@ -3,7 +3,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import styles from './layout.module.scss';
-import utilStyles from '../styles/utils.module.scss';
 
 const name = 'Your Name';
 export const siteTitle = 'Next.js Sample Website';
@@ -32,12 +31,11 @@ const Layout = ({ children, home }) => {
             <Image
               priority
               src="/images/pomeranian.jpeg"
-              className={utilStyles.borderCircle}
               height={144}
               width={144}
               alt={name}
             />
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
+            <h1>{name}</h1>
           </>
         ) : (
           <>
@@ -46,16 +44,15 @@ const Layout = ({ children, home }) => {
                 <Image
                   priority
                   src="/images/pomeranian.jpeg"
-                  className={utilStyles.borderCircle}
                   height={108}
                   width={108}
                   alt={name}
                 />
               </a>
             </Link>
-            <h2 className={utilStyles.headingLg}>
+            <h2>
               <Link href="/">
-                <a className={utilStyles.colorInherit}>{name}</a>
+                <a>{name}</a>
               </Link>
             </h2>
           </>
