@@ -7,8 +7,8 @@ const ColourTile = (props) => {
 
   return (
     <div className={styles.tile}>
-      <div className={styles['tile__colour-box']} style={{backgroundColor: hex}}></div>
-      <div className={styles['tile__content']}>
+      <div className={styles.colourBox} style={{backgroundColor: hex}}></div>
+      <div className={styles.contentWrapper}>
         <p>{name}</p>
         <p>{hex}</p>
         <p>{varName}</p>

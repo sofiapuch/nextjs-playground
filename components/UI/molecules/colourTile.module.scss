@@ -2,13 +2,13 @@
   display: flex;
   align-items: center;
   margin-right: 1.5rem;
+}
 
-  &__colour-box {
-    width: 5rem;
-    height: 5rem;
-  }
+.colourBox {
+  width: 5rem;
+  height: 5rem;
+}
 
-  &__content {
-    margin-left: 1rem;
-  }
+.contentWrapper {
+  margin-left: 1rem;
 }

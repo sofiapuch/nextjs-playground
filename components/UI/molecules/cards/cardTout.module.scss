@@ -1,22 +1,63 @@
 @import '../../../../build/design-tokens/tokens';
 @import '../../../../styles/type-styles';
 
-.card-tout {
+// .card-tout {
+//   height: 100%;
+//   padding: 48px 56px;
+
+//   &__title {
+//     color: $global-violet-500;
+//   }
+
+//   &--primary {
+//     background-color: $global-violet-500;
+
+//     .card-tout__title {
+//       color: $global-green-400;
+//     }
+
+//     .card-tout__caption {
+//       color: #fff;
+//     }
+//   }
+
+//   &--secondary {
+//     background-color: $global-green-400;
+
+//     .card-tout__title {
+//       color: $global-violet-500;
+//     }
+//   }
+
+//   &--dark {
+//     background-color: $global-grey-300;
+
+//     .card-tout__title {
+//       color: $global-green-400;
+//     }
+
+//     .card-tout__caption {
+//       color: #fff;
+//     }
+//   }
+
+//   &__caption {
+//     @extend %card-caption;
+//   }
+// }
+
+.cardTout {
   height: 100%;
   padding: 48px 56px;
-
-  &__title {
-    color: $global-violet-500;
-  }
 
   &--primary {
     background-color: $global-violet-500;
 
-    .card-tout__title {
+    .title {
       color: $global-green-400;
     }
 
-    .card-tout__caption {
+    .caption {
       color: #fff;
     }
   }
@@ -24,7 +65,7 @@
   &--secondary {
     background-color: $global-green-400;
 
-    .card-tout__title {
+    .title {
       color: $global-violet-500;
     }
   }
@@ -32,16 +73,20 @@
   &--dark {
     background-color: $global-grey-300;
 
-    .card-tout__title {
+    .title {
       color: $global-green-400;
     }
 
-    .card-tout__caption {
+    .caption {
       color: #fff;
     }
   }
+}
 
-  &__caption {
-    @extend %card-caption;
-  }
+.title {
+  color: $global-violet-500;
+}
+
+.caption {
+  @extend %card-caption;
 }
