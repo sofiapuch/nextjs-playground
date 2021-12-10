@@ -10,7 +10,6 @@ StyleDictionary.registerTransform({
   name: 'custom-size/px', 
   type: 'value',
   matcher: function(prop) {
-    console.log("style dictionary - prop: ", prop);
       return prop.path.includes("size") || 
              prop.path.includes("sectionSize") || 
              prop.path.includes("gutterSize") || 

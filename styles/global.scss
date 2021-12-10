@@ -6,6 +6,7 @@
 
 @import '_reset';
 @import '_type-styles';
+@import '../build/design-tokens/tokens';
 
 /* Global styles */
 
@@ -21,7 +22,7 @@ body {
 
 a {
   @extend %body-style;
-  color: #0070f3;
+  color: $global-violet-500;
   text-decoration: none;
 }
 

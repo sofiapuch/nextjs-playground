@@ -1,3 +1,4 @@
+@import '../../../../build/design-tokens/tokens';
 @import '../../../../styles/type-styles';
 
 .card-tout {
@@ -5,14 +6,14 @@
   padding: 48px 56px;
 
   &__title {
-    color: #680075;
+    color: $global-violet-500;
   }
 
   &--primary {
-    background-color: #680075;
+    background-color: $global-violet-500;
 
     .card-tout__title {
-      color: #04FFC8;
+      color: $global-green-400;
     }
 
     .card-tout__caption {
@@ -21,18 +22,18 @@
   }
 
   &--secondary {
-    background-color: #04FFC8;
+    background-color: $global-green-400;
 
     .card-tout__title {
-      color: #680075;
+      color: $global-violet-500;
     }
   }
 
   &--dark {
-    background-color: #232323;
+    background-color: $global-grey-300;
 
     .card-tout__title {
-      color: #04FFC8;
+      color: $global-green-400;
     }
 
     .card-tout__caption {

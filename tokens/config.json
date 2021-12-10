@@ -3,9 +3,9 @@
   "platforms": {
     "scss": {
       "transformGroup": "scss",
-      "buildPath": "build/scss/",
+      "buildPath": "build/design-tokens/",
       "files": [{
-        "destination": "_var-tokens.scss",
+        "destination": "_tokens.scss",
         "format": "scss/variables"
       }]
     }
