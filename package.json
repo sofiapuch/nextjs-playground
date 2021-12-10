@@ -3,6 +3,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:tokens": "node ./tokens/build.js",
     "start": "next start",
     "storybook": "start-storybook -p 6006 -s ./public",
     "build-storybook": "build-storybook -s public"
@@ -30,6 +31,7 @@
     "@storybook/builder-webpack5": "^6.4.3",
     "@storybook/manager-webpack5": "^6.4.3",
     "@storybook/react": "^6.4.3",
-    "babel-loader": "^8.2.3"
+    "babel-loader": "^8.2.3",
+    "style-dictionary": "^3.0.3"
   }
 }
