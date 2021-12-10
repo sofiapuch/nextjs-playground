@@ -3,6 +3,8 @@ import styles from './colourTile.module.scss';
 const ColourTile = (props) => {
   const { name, hex, varName } = props.colour;
 
+  console.log("styles: ", styles);
+
   return (
     <div className={styles.tile}>
       <div className={styles['tile__colour-box']} style={{backgroundColor: hex}}></div>
