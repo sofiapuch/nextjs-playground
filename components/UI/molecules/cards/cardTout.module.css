@@ -1,40 +1,40 @@
-@import '../../../../build/design-tokens/_tokens';
-@import '../../../../styles/_type-styles';
+@import '../../../../build/design-tokens/_tokens.css';
+@import '../../../../styles/_type-styles.css';
 
 .cardTout {
   height: 100%;
   padding: 48px 56px;
+}
 
-  &--primary {
-    background-color: var(--global-violet-500);
+.cardTout--primary {
+  background-color: var(--global-violet-500);
 
-    .title {
-      color: var(--global-green-400);
-    }
-
-    .caption {
-      color: #fff;
-    }
+  .title {
+    color: var(--global-green-400);
   }
 
-  &--secondary {
-    background-color: var(--global-green-400);
+  .caption {
+    color: #fff;
+  }
+}
 
-    .title {
-      color: var(--global-violet-500);
-    }
+.cardTout--secondary {
+  background-color: var(--global-green-400);
+
+  .title {
+    color: var(--global-violet-500);
+  }
+}
+
+.cardTout--dark {
+  background-color: var(--global-grey-300);
+
+  .title {
+    color: var(--global-green-400);
   }
 
-  &--dark {
-    background-color: var(--global-grey-300);
-
-    .title {
-      color: var(--global-green-400);
-    }
-
-    .caption {
-      color: #fff;
-    }
+  .caption {
+    color: #fff;
   }
 }
 

@@ -1,6 +1,8 @@
 module.exports = {
   plugins: [
     'postcss-flexbugs-fixes',
+    'postcss-extend-rule',
+    'postcss-import',
     [
       'postcss-preset-env',
       {

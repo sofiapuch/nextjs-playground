@@ -4,9 +4,9 @@
 
 /* Global styles for elements */
 
-@import '_reset';
-@import '_type-styles';
-@import '../build/design-tokens/_tokens';
+@import './_reset.css';
+@import './_type-styles.css';
+@import '../build/design-tokens/_tokens.css';
 
 /* Global styles */
 
