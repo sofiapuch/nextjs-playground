@@ -1,6 +1,6 @@
 import { Container, Row, Col } from 'react-grid-system';
 
-import styles from './typography.module.scss';
+import styles from './typography.module.css';
 
 const typeStyles = [
   {

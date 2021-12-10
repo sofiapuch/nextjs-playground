@@ -1,4 +1,4 @@
-import styles from './cardTout.module.scss';
+import styles from './cardTout.module.css';
 
 const CardTout = (props) => {
   const { title, description, modifier, link } = props.card;

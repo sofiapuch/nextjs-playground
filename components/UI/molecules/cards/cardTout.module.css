@@ -1,0 +1,47 @@
+@import '../../../../build/design-tokens/_tokens';
+@import '../../../../styles/_type-styles';
+
+.cardTout {
+  height: 100%;
+  padding: 48px 56px;
+
+  &--primary {
+    background-color: var(--global-violet-500);
+
+    .title {
+      color: var(--global-green-400);
+    }
+
+    .caption {
+      color: #fff;
+    }
+  }
+
+  &--secondary {
+    background-color: var(--global-green-400);
+
+    .title {
+      color: var(--global-violet-500);
+    }
+  }
+
+  &--dark {
+    background-color: var(--global-grey-300);
+
+    .title {
+      color: var(--global-green-400);
+    }
+
+    .caption {
+      color: #fff;
+    }
+  }
+}
+
+.title {
+  color: var(--global-violet-500);
+}
+
+.caption {
+  @extend %card-caption;
+}

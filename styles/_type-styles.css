@@ -1,33 +1,35 @@
-$outfit-font: 'Outfit', sans-serif;
-$quicksand-font: 'Quicksand', sans-serif;
+:root {
+  --font-outfit: 'Outfit', sans-serif;
+  --font-quicksand: 'Quicksand', sans-serif;
+}
 
 %heading01 {
-  font-family: $outfit-font;
+  font-family: var(--font-outfit);
   font-size: 32px;
   font-weight: 900;
 }
 
 %heading02 {
-  font-family: $outfit-font;
+  font-family: var(--font-outfit);
   font-size: 32px;
   font-weight: 300;
 }
 
 %heading04 {
-  font-family: $outfit-font;
+  font-family: var(--font-outfit);
   font-size: 24px;
   font-weight: 900;
 }
 
 %card-caption {
-  font-family: $quicksand-font;
+  font-family: var(--font-quicksand);
   font-size: 16px;
   line-height: 20px;
   font-weight: normal;
 }
 
 %body-style {
-  font-family: $quicksand-font;
+  font-family: var(--font-quicksand);
   font-size: 16px;
   line-height: 26px;
   font-weight: normal;

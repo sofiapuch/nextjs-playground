@@ -1,4 +1,4 @@
-import "../styles/global.scss";
+import "../styles/global.css";
 
 import * as NextImage from "next/image";
 

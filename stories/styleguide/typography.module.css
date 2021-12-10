@@ -1,4 +1,4 @@
-@import '../../styles/type-styles';
+@import '../../styles/_type-styles';
 
 .heading01 {
   @extend %heading01;
