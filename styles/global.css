@@ -1,14 +1,9 @@
 /* Fonts */
-
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;900&family=Quicksand&display=swap');
 
 /* Global styles for elements */
-
 @import './_reset.css';
 @import './_type-styles.css';
-@import '../build/design-tokens/_tokens.css';
-
-/* Global styles */
 
 html,
 body {

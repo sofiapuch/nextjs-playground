@@ -1,4 +1,3 @@
-@import '../../../../build/design-tokens/_tokens.css';
 @import '../../../../styles/_type-styles.css';
 
 .cardTout {
@@ -8,34 +7,34 @@
 
 .cardTout--primary {
   background-color: var(--global-violet-500);
+}
 
-  .title {
-    color: var(--global-green-400);
-  }
+.cardTout--primary .title {
+  color: var(--global-green-400);
+}
 
-  .caption {
-    color: #fff;
-  }
+.cardTout--primary .caption {
+  color: #fff;
 }
 
 .cardTout--secondary {
   background-color: var(--global-green-400);
+}
 
-  .title {
-    color: var(--global-violet-500);
-  }
+.cardTout--secondary .title {
+  color: var(--global-violet-500);
 }
 
 .cardTout--dark {
   background-color: var(--global-grey-300);
+}
 
-  .title {
-    color: var(--global-green-400);
-  }
+.cardTout--dark .title {
+  color: var(--global-green-400);
+}
 
-  .caption {
-    color: #fff;
-  }
+.cardTout--dark .caption {
+  color: #fff;
 }
 
 .title {
