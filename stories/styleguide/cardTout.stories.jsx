@@ -8,6 +8,12 @@ const cardDefault = {
 export default {
   title: "Card Tout",
   component: CardTout,
+  argTypes: {
+    modifier: {
+      options: ['primary', 'secondary', 'light', 'dark'],
+      control: { type: 'radio' }
+    }
+  }
 };
 
 const Template = (args) => <CardTout {...args} />
