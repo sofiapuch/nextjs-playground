@@ -1,7 +1,7 @@
 import styles from './cardTout.module.scss';
 
 const CardTout = (props) => {
-  const { title, description, modifier, link } = props.card;
+  const { title, description, modifier } = props;
 
   return (
     <div className={`${styles['card-tout']} ${styles[`card-tout--${modifier}`]}`}>

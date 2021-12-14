@@ -46,7 +46,7 @@ const CardToutList = () => {
         {cards.map((card, index) => {
           return (
             <Col sm={6} md={4} key={`${card.title}-${index}`}>
-              <CardTout card={card}/>
+              <CardTout title={card.title} description={card.description} modifier={card.modifier}/>
             </Col>
           )
         })}
